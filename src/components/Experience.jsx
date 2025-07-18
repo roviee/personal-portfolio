@@ -2,7 +2,7 @@ import { experience } from "../portfolio";
 
 const Experience = () => {
   return (
-     <div className="relative lg:sticky lg:top-0 lg:h-screen z-40 bg-white flex flex-col items-center px-6 py-12">
+     <div className="sticky top-0 h-screen z-40 bg-white flex flex-col items-center px-6 py-12  rounded-t-4xl">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 text-center mt-6 mb-4">
         Experience
       </h2>

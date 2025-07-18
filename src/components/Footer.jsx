@@ -8,7 +8,7 @@ const Footer = () => {
    const socialIcon =
     "relative text-white dark:text-gray-300 hover:text-gray-300 dark:hover:text-indigo-700 ml-2 text-2xl after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full";
   return (
-    <footer className="sticky bottom-0 bg-gray-800 text-white px-6 py-8 mt-10 z-1">
+    <footer className="sticky bottom-0 bg-gray-800 text-white px-7 py-8 z-1">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
         {/* Left: Name or Logo */}
         <div className="text-center sm:text-left">
